@@ -1,0 +1,17 @@
+<launch>
+  <!-- Define the controller manager plugin to use for trajectory execution -->
+  <param name="moveit_controller_manager" value="moveit_simple_controller_manager/MoveItSimpleControllerManager" />
+
+  <!--******************************************Edit in 2024/4/24*************************************************************** -->
+
+  <!--******************************************Edit in 2024/4/24*************************************************************** -->
+  <arg name="use_controller_manager" default="true" />
+  <param name="use_controller_manager" value="$(arg use_controller_manager)" />
+  <!--******************************************Edit in 2024/4/24*************************************************************** -->
+
+  <!--******************************************Edit in 2024/4/24*************************************************************** -->
+
+  <!-- loads controller list to the param server -->
+  <rosparam file="$(find moveit_src)/config/rbd_moveit_manager.yaml"/>
+</launch>
+

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/big/Test_rbd/install/setup.sh

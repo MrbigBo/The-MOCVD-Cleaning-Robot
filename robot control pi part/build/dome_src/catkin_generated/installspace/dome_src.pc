@@ -1,0 +1,8 @@
+prefix=/home/big/Test_rbd/install
+
+Name: dome_src
+Description: Description of dome_src
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: moveit_core moveit_ros_planning_interface roscpp rospy

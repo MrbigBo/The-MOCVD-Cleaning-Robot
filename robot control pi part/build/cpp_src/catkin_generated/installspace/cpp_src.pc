@@ -1,0 +1,8 @@
+prefix=/home/big/Test_rbd/install
+
+Name: cpp_src
+Description: Description of cpp_src
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

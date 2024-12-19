@@ -1,0 +1,2 @@
+set(msgs_cpp_MESSAGE_FILES "/home/big/Test_rbd/src/msgs_cpp/msg/Joint_val.msg")
+set(msgs_cpp_SERVICE_FILES "")

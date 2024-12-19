@@ -1,0 +1,24 @@
+<launch>
+
+ <include file="$(find moveit_src)/launch/move_group.launch">
+  <arg name="publish_monitored_planning_scene" value="true" />
+ </include>
+
+ <include file="$(find moveit_src)/launch/moveit_rviz.launch">
+  <arg name="rviz_config" value="true" />
+ </include>
+
+  <!-- We do not have a robot connected, so publish fake joint states -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="/use_gui" value="false"/> 
+<!--******************************************Edit in 2024/4/1*************************************************************** -->
+
+<!--******************************************Edit in 2024/4/1*************************************************************** -->
+    <!-- <rosparam param="/source_list">[/br_robot/joint_states]</rosparam> -->
+    <rosparam param="/source_list">[/br_robot/joint_states]</rosparam>
+<!--******************************************Edit in 2024/4/1*************************************************************** -->
+
+<!--******************************************Edit in 2024/4/1*************************************************************** -->
+  </node>
+
+</launch>

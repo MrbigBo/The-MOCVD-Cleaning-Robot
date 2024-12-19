@@ -1,0 +1,2 @@
+dome_src:gazebo_src:moveit_src:msgs_cpp:urdf_src
+-DCATKIN_DEVEL_PREFIX=/home/big/Test_rbd/devel -DCMAKE_INSTALL_PREFIX=/home/big/Test_rbd/install -G Unix Makefiles

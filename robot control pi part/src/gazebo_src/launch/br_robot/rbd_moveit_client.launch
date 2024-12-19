@@ -1,0 +1,9 @@
+<launch>
+      <!-- ros_control arm launch file -->
+    <include file="$(find gazebo_src)/launch/br_robot/rbd_gazebo_joint_states.launch" />   
+    <!-- ros_control trajectory control dof arm launch file -->
+    <include file="$(find gazebo_src)/launch/br_robot/rbd_trajectory_controller.launch" />
+    <!-- moveit launch file -->
+    <include file="$(find moveit_src)/launch/br_robot_moveit_planning_execution.launch" />
+
+</launch>
