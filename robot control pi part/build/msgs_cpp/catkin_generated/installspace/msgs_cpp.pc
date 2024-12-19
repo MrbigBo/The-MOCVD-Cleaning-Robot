@@ -1,8 +1,0 @@
-prefix=/home/big/Test_rbd/install
-
-Name: msgs_cpp
-Description: Description of msgs_cpp
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 

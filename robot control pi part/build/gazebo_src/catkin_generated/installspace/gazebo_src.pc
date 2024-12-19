@@ -1,8 +1,0 @@
-prefix=/home/big/Test_rbd/install
-
-Name: gazebo_src
-Description: Description of gazebo_src
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

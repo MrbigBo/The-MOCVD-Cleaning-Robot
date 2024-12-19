@@ -1,8 +1,0 @@
-prefix=/home/big/Test_rbd/install
-
-Name: moveit_src
-Description: Description of moveit_src
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
