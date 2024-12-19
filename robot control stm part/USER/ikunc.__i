@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\FWlib\inc -I ..\USER
+-I "E:\NC UI\资料\STM32F1.4\STM32F103C8T6--最小系统(客户资料）-1507\STM32F103C8T6例程\基本例程-USART收发\通过USART1 收发数据\USER\RTE"
+-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include
+-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include
+-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\ikunc.o --omf_browse .\ikunc.crf --depend .\ikunc.d "ikunc.c"

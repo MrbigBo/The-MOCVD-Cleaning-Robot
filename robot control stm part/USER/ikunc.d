@@ -1,0 +1,13 @@
+.\ikunc.o: ikunc.c
+.\ikunc.o: ikunc.h
+.\ikunc.o: ..\CMSIS\stm32f10x.h
+.\ikunc.o: ..\CMSIS\core_cm3.h
+.\ikunc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\ikunc.o: ..\CMSIS\system_stm32f10x.h
+.\ikunc.o: ..\USER\stm32f10x_conf.h
+.\ikunc.o: ..\FWlib\inc\stm32f10x_gpio.h
+.\ikunc.o: ..\CMSIS\stm32f10x.h
+.\ikunc.o: ..\FWlib\inc\stm32f10x_rcc.h
+.\ikunc.o: ..\FWlib\inc\stm32f10x_usart.h
+.\ikunc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\ikunc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

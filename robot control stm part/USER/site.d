@@ -1,0 +1,16 @@
+.\site.o: Site.c
+.\site.o: Site.h
+.\site.o: ..\CMSIS\stm32f10x.h
+.\site.o: ..\CMSIS\core_cm3.h
+.\site.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\site.o: ..\CMSIS\system_stm32f10x.h
+.\site.o: ..\USER\stm32f10x_conf.h
+.\site.o: ..\FWlib\inc\stm32f10x_gpio.h
+.\site.o: ..\CMSIS\stm32f10x.h
+.\site.o: ..\FWlib\inc\stm32f10x_rcc.h
+.\site.o: ..\FWlib\inc\stm32f10x_usart.h
+.\site.o: usart1.h
+.\site.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\site.o: message.h
+.\site.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\site.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
